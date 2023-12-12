@@ -6,7 +6,7 @@ import Button from '@mui/joy/Button';
 
 function App() {
   const instance = axios.create({
-    baseURL: 'http://18.231.154.33:3030',
+    baseURL: 'http://localhost:3030',
   });
   const [user, setUser] = useState()
   const [loading, setLoading] = useState(false)
