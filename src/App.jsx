@@ -12,15 +12,17 @@ function App() {
   const [loading, setLoading] = useState(false)
   const [selectedName, setSelectedName] = useState()
   const names = [
-    "Pedro",
-    "Ana Flavia",
-    "Tia Wan",
-    "Tio Paulo",
-    "Paula",
-    "Vovó Sina",
-    "Tia Mila",
-    "Laura",
-    "Luisa"
+    "Tatiana",
+    "Alexandre",
+    "Matheus",
+    "Adaline",
+    "Sandra (mãe)",
+    "Dana (pai)",
+    "Alexandre Filho",
+    "Thainara",
+    "Elisangela",
+    "Valdeci",
+    "Maria Luisa"
   ]
   const sortear = async () => {
     if(!user) return
